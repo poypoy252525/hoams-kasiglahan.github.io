@@ -1,9 +1,9 @@
 :root {
-    --colorPrimary: #2584ff;
-    --colorSecondary: #00d9ff;
-    --colorAccent: #ff3400;
-    --colorHeadings: #1b0760;
-    --colorBody: #918ca4;
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
 }
 
 html {
@@ -13,12 +13,12 @@ html {
 body {
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
-    color: var(--colorBody);
+    color: var(--color-body);
     line-height: 1.5;
 }
 
 h1, h2, h3 {
-    color: var(--colorHeadings);
+    color: var(--color-headings);
     margin-bottom: 1rem;
 }
 
@@ -65,7 +65,7 @@ a {
 .link-arrow {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--colorAccent);
+    color: var(--color-accent);
 }
 
 .link-arrow::after {
@@ -89,12 +89,12 @@ a {
 }
 
 .badge--primary {
-    background-color: var(--colorPrimary);
+    background-color: var(--color-primary);
     color: #fff;
 }
 
 .badge--secondary {
-    background-color: var(--colorSecondary);
+    background-color: var(--color-secondary);
     color: #fff;
 }
 
@@ -111,3 +111,51 @@ a {
         font-size: 1.2rem;
     }
 }
+
+/* links */
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+}
+
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+/* buttons */
+
+.btn {
+    border-radius: 50px;
+    padding: 2rem 3rem;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    background: none;
+    outline: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+}
+
+.btn--secondary {
+    background: var(--color-secondary);
+    color: #fff;
+    border: none;
+}
+
+.btn--accent {
+    background: var(--color-accent);
+    color: #fff;
+    border: none;
+}
+
