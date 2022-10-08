@@ -78,7 +78,8 @@ p {
 /* Button */
 .btn {
     font-size: 1.8rem;
-    padding: 1rem 2rem;
+    font-weight: bold;
+    padding: 2rem 3rem;
     border-radius: 40px;
     border: none;
     outline: none;
@@ -175,5 +176,44 @@ a {
 
     .badge--small {
         font-size: 1.2rem;
+    }
+}
+
+/* input */
+
+.input {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 2.2rem 4.4rem;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 2rem;
+    color: var(--color-headings);
+    opacity: 0.3;
+}
+
+.input-group {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    display: flex;
+    box-shadow: 0 0 40px #ccc;
+}
+
+.input-group .input {
+    border: 0;
+    flex-grow: 1;
+}
+
+.input-group .btn {
+    margin: 4px;
+}
+
+@media screen and (min-width: 950px) {
+    .input {
+        font-size: 1.5rem;
     }
 }
