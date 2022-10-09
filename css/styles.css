@@ -273,3 +273,25 @@ a {
         font-size: 1.5rem;
     }
 }
+
+/* icon */ 
+
+.icon-container {
+    background: #f3f9f9;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
