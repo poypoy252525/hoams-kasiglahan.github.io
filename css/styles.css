@@ -77,9 +77,10 @@ p {
 
 /* Button */
 .btn {
+    
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 2rem 3rem;
+    padding: 1.5rem 3rem;
     border-radius: 40px;
     border: none;
     outline: none;
@@ -128,6 +129,7 @@ a {
     font-size: 2rem;
     font-weight: bold;
     color: var(--color-accent);
+    white-space: nowrap;
 }
 
 .link::after {
@@ -310,4 +312,30 @@ a {
     .grid--cols-3 {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/* media */
+
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2.5rem;
+}
+
+.media__image {
+    margin-top: 1rem;
+}
+
+.shadow {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+
+.no-border {
+    border: 0;
 }
