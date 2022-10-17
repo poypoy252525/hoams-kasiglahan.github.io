@@ -296,6 +296,10 @@ a {
     fill: var(--color-primary);
 }
 
+.icon--secondary {
+    fill: var(--color-secondary);
+}
+
 /* grid */
 
 .grid {
