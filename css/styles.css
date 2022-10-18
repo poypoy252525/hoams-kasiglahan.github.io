@@ -113,9 +113,21 @@ p {
     color: #fff;
 }
 
+.btn .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
 @media screen and (min-width: 950px) {
     .btn {
         font-size: 1.5rem;
+    }
+
+    .btn .icon {
+        width: 2rem;
+        height: 2rem;
     }
 }
 
@@ -208,6 +220,7 @@ a {
 .input-group .input {
     border: 0;
     flex-grow: 1;
+    width: 0;
 }
 
 .input-group .btn {
@@ -300,6 +313,10 @@ a {
     fill: var(--color-secondary);
 }
 
+.icon--white {
+    fill: #fff;
+}
+
 /* grid */
 
 .grid {
@@ -342,4 +359,37 @@ a {
 
 .no-border {
     border: 0;
+}
+
+/* collapsible */
+
+.collapsible__header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.collapsible__heading {
+    margin-top: 0;
+}
+
+.collapsible__body {
+    max-height: 100vh;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.collapsible__chevron {
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+}
+
+.collapsible__expanded .collapsible__chevron {
+    transform: rotate(0);
+}
+
+.collapsible__expanded .collapsible__body {
+    max-height: 0;
+    opacity: 0;
 }
