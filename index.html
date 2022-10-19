@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="This is my personal Website">
+    <meta name="description" content="This is Home Owner's Association's website in Kasiglahan rodriguez (Montalban), Rizal">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,33 +11,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>System Website</title>
+    <title>Home Owner's Association - Home</title>
 </head>
-<body style="margin: 5rem;">
+<body>
 
-    <div class="collapsible collapsible__expanded">
-        <div class="collapsible__header">
-            <h3 class="collapsible__heading">Header</h3>
-            <svg class="icon icon--primary collapsible__chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/>
+    <div class="block block--primary nav-container">
+        <nav class="container nav collapsible">
+            <a href="#" class="nav__title">
+                <img class="icon nav__logo" src="icons/logo.png" alt="">
+                HOA Website
+            </a>
+            <svg class="icon icon--white nav__toggler" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
             </svg>
-        </div>
-        <div class="collapsible__body">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil facilis voluptas accusantium impedit dolor eligendi mollitia fugit pariatur sint. Maiores.</p>
-        </div>
+            <ul class="list nav__list collapsible__body">
+                <li class="list__item"><a href="#">Home</a></li>
+                <li class="list__item"><a href="#">Contact</a></li>
+                <li class="list__item"><a href="#">Gallery</a></li>
+                <li class="list__item"><a href="#">About Us</a></li>
+                <li class="list__item"><a href="pages/login.html">Log in</a></li>
+                <li class="list__item"><a href="pages/login.html">Register</a></li>
+            </ul>
+        </nav>
     </div>
-    <div class="collapsible collapsible__expanded">
-        <div class="collapsible__header">
-            <h3 class="collapsible__heading">Header</h3>
-            <svg class="icon icon--primary collapsible__chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/>
-            </svg>
+    <section class="block block--primary block--skewed-left hero">
+        <div class="container grid grid--cols-2 hero__container">
+            <div class="hero__content">
+                <h1 class="block__heading hero__title">Home Owner's Association</h1>
+                <div class="grid grid--cols-2 btn-group">
+                    <a href="#" class="btn btn--secondary hero__btn shadow">LOGIN</a>
+                    <a href="#" class="btn btn--accent hero__btn shadow">REGISTER</a>
+                </div>
+            </div>
+            <img class="hero__image" src="icons/logo.png" alt="">
         </div>
-        <div class="collapsible__body">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil facilis voluptas accusantium impedit dolor eligendi mollitia fugit pariatur sint. Maiores.</p>
-        </div>
-    </div>
-
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
