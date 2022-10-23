@@ -701,12 +701,12 @@ a {
     font-size: 7rem;
     color: #fff;
     margin-bottom: 3rem;
-    text-shadow: 3px 3px 20px rgba(100, 100, 100, 0.2);
+    text-shadow: 3px 3px 10px rgba(100, 100, 100);
 }
 
 .hero__tagline {
     color: #fff;
-    text-shadow: 3px 3px 20px rgba(100, 100, 100, 0.6);
+    text-shadow: 3px 3px 3px #000;
 }
 
 .hero__image {
