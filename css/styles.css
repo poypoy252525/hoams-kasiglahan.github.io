@@ -701,17 +701,18 @@ a {
     font-size: 7rem;
     color: #fff;
     margin-bottom: 3rem;
-    text-shadow: 3px 3px 10px rgba(100, 100, 100);
+    text-shadow: 0 0 10px rgba(100, 100, 100);
 }
 
 .hero__tagline {
     color: #fff;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 0 0 5px rgba(100, 100, 100);
 }
 
 .hero__image {
     width: 80%;
     max-width: 520px;
+    color: #000;
 }
 
 .hero__container {
