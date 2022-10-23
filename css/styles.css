@@ -20,7 +20,7 @@ html {
 
 body {
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-size: 2.4rem;
     font-family: Inter, Arial, Helvetica, sans-serif;
 }
@@ -692,7 +692,8 @@ a {
 /* hero */
 
 .hero {
-    /* background: linear-gradient(to right, var(--color-primary), #fff); */
+    background: url(../images/banner.jpg);
+    background-size: 100% 100%;
     clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
 }
 
@@ -700,11 +701,12 @@ a {
     font-size: 7rem;
     color: #fff;
     margin-bottom: 3rem;
-    /* text-shadow: 3px 3px 20px #222; */
+    text-shadow: 3px 3px 20px rgba(100, 100, 100, 0.2);
 }
 
 .hero__tagline {
-    color: #eee;
+    color: #fff;
+    text-shadow: 3px 3px 20px rgba(100, 100, 100, 0.6);
 }
 
 .hero__image {
