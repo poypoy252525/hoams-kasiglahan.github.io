@@ -1053,7 +1053,7 @@ a {
     .block__form {
         padding: 3rem 0;
         background: #f7f7f7;
-        height: auto;
+        height: fit-content;
     }
 }
 
