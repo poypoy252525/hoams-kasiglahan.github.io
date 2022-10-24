@@ -733,6 +733,20 @@ a {
     }
 }
 
+@media screen and (min-width: 430px) and (max-width: 580px) {
+    .hero__title {
+        font-size: 6rem;
+    }
+
+    .hero__tagline {
+        font-size: 1.8rem;
+    }
+
+    .hero__image {
+        width: 95%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .hero {
         clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
@@ -802,20 +816,6 @@ a {
 
     .hero__title {
         font-size: 6rem;
-    }
-}
-
-@media screen and (min-width: 370px) and (max-width: 580px) {
-    .hero__title {
-        font-size: 5rem;
-    }
-
-    .hero__tagline {
-        font-size: 1.8rem;
-    }
-
-    .hero__image {
-        width: 95%;
     }
 }
 
