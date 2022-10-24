@@ -952,6 +952,10 @@ a {
         font-size: 1.7rem;
     }
 
+    .footer__list .list__item {
+        font-size: 1.5rem;
+    }
+
     .footer__copyright > p {
         font-size: 1.1rem;
     }
