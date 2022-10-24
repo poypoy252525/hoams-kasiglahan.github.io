@@ -757,7 +757,7 @@ a {
     }
 
     .hero__title {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     .hero__tagline {
@@ -1057,5 +1057,41 @@ a {
 
     .block__form {
         padding: 3rem 0;
+    }
+}
+
+/* features */ 
+
+.feature-grid {
+    row-gap: 5rem;
+    margin: 7rem auto;
+}
+
+.feature-header {
+    text-align: center;
+}
+
+.feature-content {
+    text-align: left;
+}
+
+.feature-image {
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+}
+
+.feature-headings {
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .feature-grid {
+        column-gap: 4rem;
+        max-width: 1024px;
+    }
+
+    .feature-grid:nth-of-type(even) .feature-content {
+        order: 2;
     }
 }
