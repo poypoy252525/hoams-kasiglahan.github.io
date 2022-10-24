@@ -616,7 +616,7 @@ a {
         width: auto;
         padding: 0 3rem;
         color: var(--color-headings);
-        transition: all 0.15s;
+        transition: all 0.15s !important;
     }
 }
 
