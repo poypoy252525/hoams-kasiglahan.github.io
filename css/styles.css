@@ -591,10 +591,6 @@ a {
         transition: opacity 0.15s;
     }
 
-    .list__item.nav__btn {
-        font-size: 1.5rem;
-    }
-
     .nav__list .list__item:hover {
         opacity: 1;
     }
@@ -610,6 +606,7 @@ a {
     }
 
     .list__item.nav__btn {
+        font-size: 1.5rem;
         width: auto;
         padding: 0 3rem;
         color: var(--color-headings);
