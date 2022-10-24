@@ -958,10 +958,11 @@ a {
 }
 
 
-/* log in form */
+/* form */
 
 .block__form {
     padding: 0;
+    height: calc(100vh - 151px);
 }
 
 .login-form {
@@ -991,7 +992,7 @@ a {
 
 .group__input {
     width: 100%;
-    height: 3.5rem;
+    height: 4rem;
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 0.5rem 2rem;
@@ -1050,6 +1051,7 @@ a {
 
     .block__form {
         padding: 3rem 0;
+        background: #f7f7f7;
     }
 }
 
