@@ -585,6 +585,11 @@ a {
         display: none;
     }
 
+    .active {
+        opacity: 1 !important;
+        border-bottom: 1px solid var(--color-headings);
+    }
+
     .nav__list .list__item {
         opacity: 0.5;
         margin-left: 3rem;
