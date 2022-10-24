@@ -962,6 +962,7 @@ a {
 
 .block__form {
     padding: 0;
+    background: #fff;
     height: calc(100vh - 151px);
 }
 
@@ -1052,6 +1053,7 @@ a {
     .block__form {
         padding: 3rem 0;
         background: #f7f7f7;
+        height: auto;
     }
 }
 
