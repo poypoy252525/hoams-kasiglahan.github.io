@@ -1184,6 +1184,7 @@ a {
 .facilities-container {
     width: 100%;
     height: 100%;
+    margin-bottom: 4rem;
 }
 
 .facilities__image {
@@ -1203,5 +1204,9 @@ a {
 @media screen and (min-width:768px) {
     .facilities__image {
         height: 50%;
+    }
+
+    .facilities-container {
+        margin-bottom: 0;
     }
 }
