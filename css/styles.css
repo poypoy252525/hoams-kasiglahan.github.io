@@ -1127,6 +1127,14 @@ a {
     justify-content: center;
 }
 
+.testimonial__author {
+    font-size: 1.6rem;
+}
+
+.testimonial__text {
+    font-size: 1.4rem;
+}
+
 .testimonial__content {
     max-width: 1024px;
 }
@@ -1145,6 +1153,16 @@ a {
 
 .testimonial__content .media__icon {
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial__author {
+        font-size: 2rem;
+    }
+    
+    .testimonial__text {
+        font-size: 1.6rem;
+    }
 }
 
 /* facilities block */
