@@ -687,7 +687,7 @@ a {
     clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     .block--skewed-left {
         clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     }
