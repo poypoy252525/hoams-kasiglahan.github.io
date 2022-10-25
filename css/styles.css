@@ -648,7 +648,7 @@ a {
   
   .block--dark {
     background: #000;
-    color: #7b858b;
+    /* color: #7b858b; */
   }
   
   .block--dark .block__heading {
@@ -1129,6 +1129,7 @@ a {
 
 .testimonial__author {
     font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 .testimonial__text {
@@ -1145,6 +1146,7 @@ a {
 
 .testimonial__content .media {
     width: 100%;
+    margin-top: 1.5rem;
 }
 
 .testimonial__content .media__image {
