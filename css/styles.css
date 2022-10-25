@@ -1151,7 +1151,7 @@ a {
 /* facilities block */
 
 .facilities__content {
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 80%;
     column-gap: 4rem;
     align-items: center;
