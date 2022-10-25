@@ -679,7 +679,7 @@ a {
   
   .block--skewed-right {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 93%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 97%);
   }
   
   .block--skewed-left {
@@ -693,7 +693,7 @@ a {
     }
 
     .block--skewed-right {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 88%);
     }
   }
 
@@ -1151,7 +1151,7 @@ a {
 /* facilities block */
 
 .facilities__content {
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 80%;
     column-gap: 4rem;
     align-items: center;
