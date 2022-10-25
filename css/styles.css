@@ -693,7 +693,7 @@ a {
     }
 
     .block--skewed-right {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 88%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
     }
   }
 
@@ -1146,4 +1146,45 @@ a {
 
 .testimonial__content .media__icon {
     cursor: pointer;
+}
+
+/* facilities block */
+
+.facilities__content {
+    margin: 0 auto;
+    width: 80%;
+    column-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.facilities-block .block__header {
+    margin-bottom: 3rem;
+}
+
+.facilities-container {
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.facilities__image {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.caption__title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.caption__content {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .facilities-container {
+        margin-bottom: 5rem;
+        width: 80%;
+    }
 }
