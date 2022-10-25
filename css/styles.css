@@ -1142,5 +1142,8 @@ a {
 
 .testimonial__content .media__image {
     margin: 0;
+}
+
+.testimonial__content .media__icon {
     cursor: pointer;
 }
