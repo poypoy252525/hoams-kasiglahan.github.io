@@ -26,7 +26,6 @@ body {
 }
 
 /* typography */
-
 h1,
 h2,
 h3 {
@@ -1143,4 +1142,5 @@ a {
 
 .testimonial__content .media__image {
     margin: 0;
+    cursor: pointer;
 }
