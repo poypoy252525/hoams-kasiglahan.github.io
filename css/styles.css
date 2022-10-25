@@ -1153,7 +1153,7 @@ a {
 .facilities__content {
     margin: 0 auto;
     width: 80%;
-    column-gap: 2rem;
+    column-gap: 4rem;
     align-items: center;
     justify-items: center;
 }
@@ -1185,6 +1185,6 @@ a {
 @media screen and (min-width: 768px) {
     .facilities-container {
         margin-bottom: 5rem;
-        width: 90%;
+        width: 100%;
     }
 }
